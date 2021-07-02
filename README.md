@@ -1,20 +1,22 @@
 # LugandaTTS
-TTS model for Luganda
+> TTS model for Luganda
 
 ## Phases
 
-- Data Collection
-- Data Validation
-- Model Training
+1. Data Collection
+2. Data Validation
+3. Model Training
 
-### Data Collection
+## Data Collection
+---
+This phase applies in unison with the Data Validation side by side to easily rectify any issues along the way.
 Below are the 2 tracks that can be used for collecting data
-#### Using defined Luganda text corpus
-In this track, we work from text to speech collection, first we have to obtain a rich Luganda text corpus that we can use. 
+### Using defined Luganda text corpus
+> In this track, we work from text to speech collection, first we have to obtain a rich Luganda text corpus that we can use. 
 ##### Pre-Data Collection
 Before we collect our data, we have to identify which sites to attain it from, the protocols needed.This is to be done with a Luganda linguist to advise on language topology and fieldwork and best corpus building methods.
 ##### Corpus building
-With the attained  corpus, the rules below have to be doublechecked to get the best results in our model.Identify the text and break it down into one sentence per line in either `.tsv` or `.csv` file formats.
+> With the attained  corpus, the rules below have to be doublechecked to get the best results in our model.Identify the text and break it down into one sentence per line in either `.tsv` or `.csv` file formats.
 ##### Guidelines for Luganda sentences to be read out loud
 - Compute grapheme and phoneme coverage of the resulting sentences to ensure most sounds are covered
 - Compile into `.tsv/.csv` files in a sentence per line
@@ -44,5 +46,15 @@ Once a rich corpus is attained and validated with the above guidelines,it is rea
 - Keep the angle at which the microphone is pointed to the speaker as constant as possible record the date and time of recording
 
 
-#### Using pre-recorded audio 
+### Using pre-recorded audio 
+> Process 
+- Identify Pre recorded audio to be transcribed and attain it.
+- Validate audio to ensure it is background noise free
+- Transcribe the audio into text. Hire a linguist to help
+- Linguist should identify if there is any interference e.g background noise in the audio and report it as they transcribe.
+- Ensure to have a normalized returned corpus by Linguist that is validated within oneline per sentence.
+- Split the audio into individual  wav file format sentences using audio auditing software.
+- Match the individually split audio to the text pairs in a database or excel file
+- Align the dataset in the LJ Speech Data format
+
 
