@@ -9,7 +9,7 @@
 
 ## Data Collection
 ---
-This phase applies in unison with the Data Validation side by side to easily rectify any issues along the way.
+This phase applies in unison with the Data Validation side by side to easily rectify any issues along the way.As this is a crutial step that will depict the quality of our built model, extra care has to be taken.
 Below are the 2 tracks that can be used for collecting data
 ### Using defined Luganda text corpus
 > In this track, we work from text to speech collection, first we have to obtain a rich Luganda text corpus that we can use. 
