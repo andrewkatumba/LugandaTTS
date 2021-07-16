@@ -1,6 +1,7 @@
 # LugandaTTS
 > TTS model for Luganda
 
+###  [Resources wiki](https://github.com/andrewkatumba/LugandaTTS.wiki.git) can be found [here](https://github.com/andrewkatumba/LugandaTTS.wiki.git)
 ## Phases
 
 1. Data Collection
